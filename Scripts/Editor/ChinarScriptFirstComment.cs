@@ -13,7 +13,7 @@ public class ChinarScriptFirstComment : UnityEditor.AssetModificationProcessor {
         if (!path.EndsWith(".cs")) return;
         string allText = "// ========================================================\r\n"
                          + "// Describe：\r\n"
-                         + "// Autho：慕飞 \r\n"
+                         + "// Author：慕飞 \r\n"
                          + "// Time：#CreateTime#\r\n"
                          + "// UnityVersion：" + Application.unityVersion+ "\r\n"
                          + "// Version：" + Application.version + "\r\n"
